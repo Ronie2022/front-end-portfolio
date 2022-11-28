@@ -105,3 +105,23 @@ footer {
 	font: 15px Open Sans, sans-serif;
 	
 }
+
+@media screen and (max-width: 768px) {
+	#custom-toggler {
+
+		margin-right: 3rem;
+	}
+}
+
+@media screen and (max-width: 425px) { 
+	#custom-toggler {
+		margin-right: 2rem;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+	#custom-navlink {
+		margin-right: 6rem;
+	}
+}

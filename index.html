@@ -33,40 +33,46 @@
 </head>
 <body>
 	<!-- Navbar -->
-	<section id="navigation">
-		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-		  <a class="navbar-brand" href="#home"><img src="./images/profile.jpg" width="30" height="30" class="d-inline-block align-top rounded-circle" alt=""> Ronie John Timbal</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
+	<div class="container">	
+		<section id="navigation">
+			<nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+			  <a class="navbar-brand" href="#home"><img src="./images/profile.jpg" width="30" height="30" class="d-inline-block align-top rounded-circle" alt=""> Ronie John Timbal</a>
+			  <div class="d-flex justify-content-end" id="custom-toggler">
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  	  <span class="navbar-toggler-icon custom-toggler"></span>
+			  	</button>
+			  </div>
+			  
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav ml-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link mx-3 nav-hover" href="#home">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link mx-3 nav-hover" href="#aboutme">About Me</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link mx-3 nav-hover" href="#projects">Projects</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link mx-3 nav-hover" href="#contact">Contact</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
-		
-	</section>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="custom-navlink">
+			      <li class="nav-item active">
+			        <a class="nav-link mx-3 nav-hover"  href="#home">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link mx-3 nav-hover" href="#aboutme">About Me</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link mx-3 nav-hover" href="#projects">Projects</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link mx-3 nav-hover" href="#contact">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+			
+		</section>
+	</div>
+	
 	<!-- //Navbar -->
 
 	<!-- Home -->
 	<section id="home">
 		<div class="container-fluid min-vh-100 text-center">
 			<div class="title">
-				<h1 id="name"  data-aos="zoom-in"  data-aos-duration="3000">Ronie John Timbal</h1>
-				<h2 id="role" data-aos="zoom-out" data-aos-duration="3000">Front-end Developer</h2>
+				<h1 id="name">Ronie John Timbal</h1>
+				<h2 id="role">Front-end Developer</h2>
 			</div>
 			
 		</div>
@@ -97,13 +103,13 @@
 
 	<!-- Projects -->
 	<section id="projects">	
-		<div class="container fluid min-vh-100 text-center">
+		<div class="container-fluid min-vh-100 text-center">
 			<div class="mt-5 pt-5" data-aos="zoom-out" data-aos-duration="2000">
 				<h1 class="my-5 py-5" id="text-shadow">Projects</h1>
 			</div>
-			<div class="container-fluid p-5">
+			<div class="container-fluid py-2">
 				<div class="row">
-					<div class="col-lg-4 col-md-12 order-2 order-lg-1  vh-50">
+					<div class="col-lg-4 col-md-12 order-2 order-lg-1 py-2  vh-50">
 						<div class="text-center" data-aos="fade-up" data-aos-duration="3000">
 								<h1>Front-end Developer Portfolio</h1>
 								<p class="text-justify">Creating my first project and developer portfolio. Minimalistic design was applied in this project. It was build with the use of HTML, CSS, Bootstrap and Animate on Scroll.
@@ -111,7 +117,7 @@
 							</div>
 						</div>
 						
-					<div class="col-lg-8 col-md-12 order-1 order-lg-2  vh-50 p-lg-5" data-aos="fade-up-left" data-aos-duration="3000">
+					<div class="col-lg-8 col-md-12 order-1 order-lg-2 py-2  vh-50 p-lg-5" data-aos="fade-up-left" data-aos-duration="3000">
 						<div id="carousel-one" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner" id="rcorner1">
 						    <div class="carousel-item active">
@@ -137,15 +143,15 @@
 
 					
 				</div>
-				<div class="row my-5 py-5">
-					<div class="col-lg-4 col-md-12 order-2 order-lg-2  vh-50 " data-aos="fade-up" data-aos-duration="3000">
+				<div class="row my-5 py-2">
+					<div class="col-lg-4 col-md-12 order-2 order-lg-2 py-2  vh-50 " data-aos="fade-up" data-aos-duration="3000">
 						<div class="text-center">
 								<h1>On going Back-end Development Project</h1>
 								<p class="text-justify">Back-end development is about creating, coding, and improving the server, server-side applications, and databases that, when combined with front-end codes, helps create a functional, seamless experience for the end-user.</p>
 							</div>
 						</div>
 						
-					<div class="col-lg-8 col-md-12 order-1 order-lg-1  vh-50 p-lg-5 "  data-aos="fade-up-right" data-aos-duration="2000">
+					<div class="col-lg-8 col-md-12 order-1 order-lg-1 py-2  vh-50 p-lg-5 "  data-aos="fade-up-right" data-aos-duration="2000">
 						<div id="carousel-two" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner" id="rcorner2">
 						    <div class="carousel-item active">
@@ -169,15 +175,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="row my-5 py-5">
-					<div class="col-lg-4 col-md-12 order-2 order-lg-1  vh-50" data-aos="fade-up" data-aos-duration="3000">
+				<div class="row my-5 py-2">
+					<div class="col-lg-4 col-md-12 order-2 order-lg-1 py-2  vh-50" data-aos="fade-up" data-aos-duration="3000">
 						<div class="text-center">
 								<h1>Upcoming Fullstack Development Project</h1>
 								<p class="text-justify">Full Stack Development means the complete end-to-end development of a project from its front-end UI (User Interface) to its back-end and servers and databases, etc. Now, do not confuse full-stack development with web development only.</p>
 							</div>
 						</div>
 						
-					<div class="col-lg-8 col-md-12 order-1 order-lg-2  vh-50 p-lg-5"  data-aos="fade-up-left" data-aos-duration="2000">
+					<div class="col-lg-8 col-md-12 order-1 order-lg-2 py-2  vh-50 p-lg-5"  data-aos="fade-up-left" data-aos-duration="2000">
 						<div id="carousel-three" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner" id="rcorner1">
 						    <div class="carousel-item active">
